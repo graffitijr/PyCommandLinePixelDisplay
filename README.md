@@ -1,4 +1,4 @@
-# 📦 PyCommandLineGUI
+# </> PyCommandLineGUI
 
 ![Static Badge](https://img.shields.io/badge/License-MIT-blue) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/graffitijr/PyCommandLineGUI)
 
