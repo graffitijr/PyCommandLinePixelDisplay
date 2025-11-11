@@ -61,6 +61,10 @@ When running a function from the class that hold the lib (PuCommandLineGUI), you
 gui = PyCommandLineGUI(10, 10, 0)
 ```
 
+Because this is a very simple library, there arent vary many function, just simple pixel commands.
+
+# Custom Characters
+
 ## ⬇️ Installation
 
 Simple, understandable installation instructions!
