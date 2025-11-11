@@ -1,6 +1,6 @@
 # 📦 My Package
 
-![Static Badge](https://img.shields.io/badge/licence)
+![Static Badge](https://img.shields.io/badge/License-MIT-blue)
 
 > *Your documentation is a direct reflection of your software, so hold it to the same standards.*
 
