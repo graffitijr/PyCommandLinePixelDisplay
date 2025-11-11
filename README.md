@@ -63,7 +63,35 @@ gui = PyCommandLineGUI(10, 10, 0)
 
 Because this is a very simple library, there arent vary many function, just simple pixel commands.
 
-# Custom Characters
+### Custom Characters
+
+The default values built in are 0 and 1, which corespond to shaded and filled. The way these values are stored are in intergers, such as 0, 1, 2 and so on. The renderer decodes these with a dictionary that is either given to it, or just the default one. The way to format the dictionary is as such:
+
+```py
+value_dict = {
+    0:" _"
+    1:" #"
+    2:" &"
+}
+```
+
+The values that you set the pixel to will be decoded to these characters to be printed.
+
+The way to give this for the program to reference is with the set_levels() function.
+
+### Every Function
+
+set_levels(levels: dict)
+
+Define how each value in the screen is displayed.
+
+Parameters:
+
+levels — dictionary mapping pixel values to strings
+
+Example: {0: "░░ ", 1: "██ "}
+
+Example:
 
 ## ⬇️ Installation
 
