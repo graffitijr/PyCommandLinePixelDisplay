@@ -33,6 +33,9 @@ class CommandLineGUI:
     def set_pixel(self, x: int, y: int, value: int):
         self.screen[y][x] = value
 
+    def get_pixel(self, x: int, y: int):
+        return self.screen[y][x]
+
     def clear_main(self):
         if os.name == 'nt':
             os.system('cls')
@@ -64,3 +67,4 @@ class CommandLineGUI:
 
     def target_fps(self, fps: float = 10.0):
         time.sleep(1.0/fps)
+
