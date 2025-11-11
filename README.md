@@ -27,7 +27,7 @@ I'm graffitjr. My Github is https://github.com/graffitijr
 The base start that you will most likely use is this:
 
 ```py
-gui = PyCommandLineGUI(10, 10, 0)
+gui = PyCommandLineGUI(10, 10, 0) # The first 2 values are width and height of the screen, and the 3rd value is the default background value/color
 # Anything that runs at start, like variables and such
 
 while True:
