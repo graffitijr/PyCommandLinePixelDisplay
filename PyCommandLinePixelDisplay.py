@@ -3,7 +3,7 @@ __version__ = 1.0.0
 import time
 import os
 
-class CommandLineGUI:
+class PyCommandLinePixelDisplay:
     def __init__(self, width: int, height: int, default_background_value: int = 0):
         self.width = width
         self.height = height
@@ -69,5 +69,6 @@ class CommandLineGUI:
 
     def target_fps(self, fps: float = 10.0):
         time.sleep(1.0/fps)
+
 
 
