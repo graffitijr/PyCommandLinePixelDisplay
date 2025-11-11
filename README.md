@@ -1,6 +1,6 @@
-# </> PyCommandLineGUI
+# </> PyCommandLinePixelDisplay
 
-![Static Badge](https://img.shields.io/badge/License-MIT-blue) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/graffitijr/PyCommandLineGUI)
+![Static Badge](https://img.shields.io/badge/License-MIT-blue) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/graffitijr/PyCommandLinePixelDisplay)
 
 
 ## 🌟 Highlights
@@ -31,7 +31,7 @@ I'm graffitjr. My Github is https://github.com/graffitijr
 The base start that you will most likely use is this:
 
 ```py
-gui = PyCommandLineGUI(10, 10, 0) # The first 2 values are width and height of the screen, and the 3rd value is the default background value/color
+gui = PyCommandLinePixelDisplay(10, 10, 0) # The first 2 values are width and height of the screen, and the 3rd value is the default background value/color
 # Anything that runs at start, like variables and such
 
 while True:
@@ -55,10 +55,10 @@ gui.set_pixel(2, 3, 1)
 
 This would set the pixel at 2, 3 to 1.
 
-When running a function from the class that hold the lib (PyCommandLineGUI), you would first put the name you gave it when initializing it, which we did gui when we did:
+When running a function from the class that hold the lib (PyCommandLinePixelDisplay), you would first put the name you gave it when initializing it, which we did gui when we did:
 
 ```py
-gui = PyCommandLineGUI(10, 10, 0)
+gui = PyCommandLinePixelDisplay(10, 10, 0)
 ```
 
 Because this is a very simple library, there aren’t very many functions, just simple pixel commands.
@@ -85,7 +85,7 @@ Some consoles dont allow the main clear type, and instead print a character of a
 
 ### Recommended Extras
 
-PyCommandLineGUI doesn't have any built in input library, my recommendation is the "keyboard" library https://pypi.org/project/keyboard/
+PyCommandLinePixelDisplay doesn't have any built in input library, my recommendation is the "keyboard" library https://pypi.org/project/keyboard/
 
 It is a very simple way in my opinion to get input, although you may have to work with threads but I'm not sure.
 
@@ -93,12 +93,12 @@ It is a very simple way in my opinion to get input, although you may have to wor
 
 Minimum Python: 3.6
 
-Install by downloading and moving PyCommandLineGUI.py to your python project folder.
+Install by downloading and moving PyCommandLinePixelDisplay.py to your python project folder.
 
 At the top of your main python script, add:
 
 ```py
-import PyCommandLineGUI
+import PyCommandLinePixelDisplay
 ```
 
 Another option is to make your script right in the file, which isnt as organized, but will work.
