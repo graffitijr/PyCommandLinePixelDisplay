@@ -1,3 +1,5 @@
+__version__ = 1.0.0
+
 import time
 import os
 
@@ -67,4 +69,5 @@ class CommandLineGUI:
 
     def target_fps(self, fps: float = 10.0):
         time.sleep(1.0/fps)
+
 
