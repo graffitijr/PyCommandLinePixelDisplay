@@ -28,7 +28,7 @@ class PyCommandLinePixelDisplay:
             current_row = ""
             for j in range(self.width):
                 try:
-                    current_row += self.levels[self.screen[i][j]] + self.pixel_seperation
+                    current_row += self.levels[self.screen[i][j]] + self.pixel_separation
                 except KeyError:
                     print(f"error: Value at {j},{i} is {self.screen[i][j]}: which is not defined")
             print(current_row)
@@ -83,5 +83,6 @@ class PyCommandLinePixelDisplay:
 
     def target_fps(self, fps: float = 10.0):
         time.sleep(1.0/fps)
+
 
 
