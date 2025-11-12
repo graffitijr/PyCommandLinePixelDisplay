@@ -109,7 +109,7 @@ Install by downloading and moving PyCommandLinePixelDisplay.py to your python pr
 At the top of your main python script, add:
 
 ```py
-import PyCommandLinePixelDisplay
+from PyCommandLinePixelDisplay import PyCommandLinePixelDisplay
 ```
 
 Another option is to make your script right in the file, which isnt as organized, but will work.
