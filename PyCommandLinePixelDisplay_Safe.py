@@ -27,7 +27,7 @@ class PyCommandLinePixelDisplay:
             current_row = ""
             for j in range(self.width):
                 try:
-                    current_row += self.levels[self.screen[i][j]] + self.pixel_seperation
+                    current_row += self.levels[self.screen[i][j]] + self.pixel_separation
                 except KeyError:
                     print(f"error: Value at {j},{i} is {self.screen[i][j]}: which is not defined")
             print(current_row)
